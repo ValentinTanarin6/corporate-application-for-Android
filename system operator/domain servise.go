@@ -14,7 +14,7 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmos "github.com/tendermint/tendermint/libs/os"
 	dbm "github.com/tendermint/tm-db"
-
+//simulator
 
   func (app *PylonsApp) prepForZeroHeightGenesis(ctx sdk.Context, jailAllowedAddrs []string) {
 	applyAllowedAddrs := false
